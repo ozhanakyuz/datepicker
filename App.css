@@ -1,0 +1,27 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Tüm ekranı kaplayacak şekilde yükseklik */
+  text-align: center; /* Başlık metnini merkezlemek için */
+}
+
+.calendar-heading {
+  margin-bottom: 20px; /* Başlık ile takvim arasında boşluk */
+}
+
+.continue-button {
+  margin-top: 20px; /* Takvim ile buton arasında boşluk */
+  padding: 10px 20px; /* Butonun iç boşluğu */
+  font-size: 16px; /* Yazı boyutu */
+  cursor: pointer; /* Fare imlecini buton üzerine getirildiğinde imlecin şeklini değiştirir */
+  border: none; /* Kenarlık kaldırılır */
+  border-radius: 5px; /* Köşeleri yuvarlaklaştırır */
+  background-color: #578637; /* Arka plan rengi */
+  color: white; /* Yazı rengi */
+}
+
+.continue-button:hover {
+  background-color: #708f5b; /* Butonun üzerine gelindiğinde arka plan rengini değiştir */
+}
